@@ -1,13 +1,21 @@
 {
-  "name": "util-tools",
+  "name": "@superjing/utils",
   "version": "0.1.0",
-  "private": true,
+  "author": "c.j.chenjing@foxmail.com",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
+  "main": "dist/utils.js",
+  "keywords": [
+    "utils",
+    "tools"
+  ],
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
