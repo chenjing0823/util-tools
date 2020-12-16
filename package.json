@@ -1,13 +1,19 @@
 {
-  "name": "@superjing/utils",
+  "name": "common-util-tools",
   "version": "0.1.0",
-  "author": "c.j.chenjing@foxmail.com",
+  "private": false,
+  "author": "chenjing0823",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenjing0823/util-tools"
+  },
+  "license": "MIT",
   "main": "dist/utils.js",
   "keywords": [
     "utils",
