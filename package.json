@@ -1,6 +1,6 @@
 {
   "name": "common-util-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "author": "chenjing0823",
   "scripts": {
@@ -57,5 +57,6 @@
     "rollup-plugin-uglify": "^6.0.2",
     "typescript": "~3.9.3",
     "vue-template-compiler": "^2.6.11"
-  }
+  },
+  "typings": "dist/types/index.d.ts"
 }
