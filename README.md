@@ -1,29 +1,14 @@
 # util-tools
 
-## Project setup
+## 安装
 ```
-npm install
+npm install common-util-tools -D
 ```
-
-### Compiles and hot-reloads for development
+## 使用
 ```
-npm run serve
+const utils = require('common-util-tools')
+const isarray1 = utils.isArray([])
+console.log(isarray1) // true
+const isarray2 = utils.isArray('')
+console.log(isarray2) // false
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
