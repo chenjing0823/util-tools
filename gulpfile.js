@@ -51,7 +51,12 @@ async function task_ts() {
     globals: {
       lodash: "lodash"
     }
-  });
+  })
 }
 
-gulp.task("default", gulp.parallel(task_clean, task_ts));
+gulp.task("default",
+  gulp.parallel(
+    task_clean,
+    task_ts
+  )
+)
